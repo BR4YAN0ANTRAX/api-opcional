@@ -1,0 +1,52 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>harry potter</title>
+</head>
+<body>
+    
+    <h1 style="color: rgb(228, 228, 228); 
+     
+    font-size: 100px;">Selcciona una imagen</h1>
+    
+
+    <style>
+
+        body  {
+             background-color: black;
+        }
+    </style>
+         
+    
+        <a href="index 2.html"><img src="harry.jpg" width="1000px" height="700px"></a>  
+        
+        <a href="index 3.html"><img src="ron.jpg" width="1000px" height="500px"></a>
+   
+        <a href="index 5.html"><img src="dumbledore.jpg" width="1000px" height="500px"></a>   
+ 
+        <a href="index 4.html"><img src="hermarioni grange .jpg" width="1000px" height="500px"></a>   
+       
+
+
+      &gt;
+        <!--aqui pongo la informacion-->
+
+    
+    <script>
+        const API_URL = 'hp-api.herokuapp.com'; harry potter 
+        const datacontainer = document.getElementById('datacontainer');
+//Funcion para obtener los datos del API  
+        async function fetchData(url){ 
+            try{
+                const response = await fetch(url);
+                const data = await response.json();
+                displayData(data.results);
+            }catch    
+            }
+        ]
+    
+    </script>
+
+
+</body></html>
